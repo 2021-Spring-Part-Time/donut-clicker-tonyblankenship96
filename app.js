@@ -1,0 +1,1 @@
+document.querySelector('section').innerText = 'Its alive'
