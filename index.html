@@ -8,60 +8,65 @@
     <title>Donut Clicker</title>
   </head>
   <body>
-    <header>
-      <div class="companyInfo">
-        <button class="companyInfoBtn">Company Information</button>
-        <p class="companyInfoP">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          maximus laoreet enim ac fermentum. Praesent ac molestie lorem, non
-          ullamcorper magna. Vivamus condimentum tincidunt purus, vel hendrerit
-          massa consequat sed. Proin sodales quam eu egestas laoreet. Sed
-          viverra ligula ipsum, vel suscipit enim elementum sed. Nulla faucibus
-          odio sed felis eleifend, vel cursus enim eleifend. Nam turpis arcu,
-          semper ac ligula vitae, dignissim porttitor ante. Proin semper mollis
-          convallis. Mauris et euismod nisl, eget lacinia risus. Morbi non
-          iaculis turpis. Donec neque velit, fringilla quis fringilla vel,
-          euismod in est. Integer ultricies purus et tortor convallis, sit amet
-          tincidunt mauris mattis. Ut nec erat sed sem feugiat vulputate non at
-          felis. Aliquam accumsan egestas diam cursus malesuada. Aliquam
-          dignissim nulla bibendum, interdum dui at, consectetur felis.
-          Curabitur ultrices enim ipsum, quis hendrerit enim congue eu.
-        </p>
-      </div>
-      <div class="inspiration">
-        <button class="inspirationBtn">Inspiration For Donut Clicker</button>
-        <p class="inspirationP">
-          <a href="https://orteil.dashnet.org/cookieclicker/"
-            >Cookie Clicker
-          </a>
-        </p>
-      </div>
-      <div class="devInfo">
-        <button class="devInfoBtn">Developer Info</button>
-        <p class="devInfoP">
-          Tony Blankenship <br />
-          Nulla fermentum dui dui, vitae sollicitudin sapien bibendum non.
-          Aliquam iaculis eleifend neque, id tempus sem blandit ac. Cras ut
-          scelerisque est. Phasellus lobortis ac tortor eu pharetra. Cras
-          vestibulum sapien ligula, vitae viverra felis iaculis ac. Suspendisse
-          leo ligula, imperdiet id erat non, tempor fermentum nisl. Aliquam
-          pretium elit eu nisl gravida rhoncus. In sed vehicula elit. Ut sed
-          tincidunt purus. Vestibulum laoreet lacus suscipit, facilisis nibh
-          quis, tincidunt purus. <br />
-          <a href="https://tonyblankenship96.github.io./">Portfolio</a>
-          <a href="https://github.com/tonyblankenship96">Github</a>
-        </p>
-      </div>
-    </header>
     <div class="container">
-      <div class="donutButton">
-        <button class="donutBtn">Click Me!</button>
-      </div>
-      <div class="autoClicker">
-        <button class="autoClickerBtn">Purchase Auto Clicker</button>
-      </div>
-      <div class="multiplier">
-        <button class="multiplierBtn">Purchase Multiplier</button>
+      <header>
+        <div id="info" class="companyInfo">
+          <button id="companyInfoBtn">Company Information</button>
+          <p class="companyInfoP">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            maximus laoreet enim ac fermentum. Praesent ac molestie lorem, non
+            ullamcorper magna. Vivamus condimentum tincidunt purus, vel hendrerit
+            massa consequat sed. Proin sodales quam eu egestas laoreet. Sed
+            viverra ligula ipsum, vel suscipit enim elementum sed. Nulla faucibus
+            odio sed felis eleifend, vel cursus enim eleifend. Nam turpis arcu,
+            semper ac ligula vitae, dignissim porttitor ante. Proin semper mollis
+            convallis. Mauris et euismod nisl, eget lacinia risus. Morbi non
+            iaculis turpis. Donec neque velit, fringilla quis fringilla vel,
+            euismod in est. Integer ultricies purus et tortor convallis, sit amet
+            tincidunt mauris mattis. Ut nec erat sed sem feugiat vulputate non at
+            felis. Aliquam accumsan egestas diam cursus malesuada. Aliquam
+            dignissim nulla bibendum, interdum dui at, consectetur felis.
+            Curabitur ultrices enim ipsum, quis hendrerit enim congue eu.
+          </p>
+        </div>
+        <div id="info" class="inspiration">
+          <button id="inspirationBtn">Inspiration For Donut Clicker</button>
+          <p class="inspirationP">
+            <a href="https://orteil.dashnet.org/cookieclicker/"
+              >Cookie Clicker
+            </a>
+          </p>
+        </div>
+        <div id="info" class="devInfo">
+          <button id="devInfoBtn">Developer Info</button>
+          <p class="devInfoP">
+            Tony Blankenship <br /> 
+            <a href="https://tonyblankenship96.github.io./">Portfolio</a> <br>
+            <a href="https://github.com/tonyblankenship96">Github</a> <br>
+            Nulla fermentum dui dui, vitae sollicitudin sapien bibendum non.
+            Aliquam iaculis eleifend neque, id tempus sem blandit ac. Cras ut
+            scelerisque est. Phasellus lobortis ac tortor eu pharetra. Cras
+            vestibulum sapien ligula, vitae viverra felis iaculis ac. Suspendisse
+            leo ligula, imperdiet id erat non, tempor fermentum nisl. Aliquam
+            pretium elit eu nisl gravida rhoncus. In sed vehicula elit. Ut sed
+            tincidunt purus. Vestibulum laoreet lacus suscipit, facilisis nibh
+            quis, tincidunt purus. <br />
+          </p>
+        </div>
+      </header>
+      <div class="buttonsAndInfo">
+        <div class="donutButton">
+          <button class="donutBtn">Click Me!</button>
+          <p class="donutCount">Donuts: 0.00</p>
+        </div>
+        <div class="autoClicker">
+          <button class="autoClickerBtn">Purchase Auto Clicker</button>
+          <p class="autoClickerCount">Auto Clickers: 0 Auto Clicker Price: 100</p>
+        </div>
+        <div class="multiplier">
+          <button class="multiplierBtn">Purchase Multiplier</button>
+          <p class="multiplierCount">Multiplier: 1 Multiplier price: 10</p>
+        </div>
       </div>
     </div>
     <script type="module" src="./app.js"></script>

@@ -1,11 +1,107 @@
-/* .inspirationP{
+body{
+    background-image: url(Donut.jpg);
+    width: 100%;
+    height: auto;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-position-y: 48%;
+}
+
+header{
+    padding: 1.3em;
+    width: 17%; 
+}
+
+#info{
+    padding: 3px;
+}
+
+.buttonsAndInfo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.donutBtn{
+  position: absolute;
+  top: 45%;
+  left: 41%;
+  font-size: 75px;
+}
+
+.donutCount{
+    position: absolute;
+    left: 46%;
+    top: 60%;
+    font-size: 25px;
+}
+
+.donutBtn:hover{
+    background-color: purple;
+    font-size: 80px;
+    transition: .5s;
+}
+
+.autoClickerBtn{
+    position: absolute;
+    left: 28%;
+    top: 15%;
+    font-size: 18px;
+}
+
+.autoClickerBtn:hover{
+    font-size: 20px;
+    background-color: purple;
+    transition: .5s;
+}
+
+.autoClickerCount{
+    position: absolute;
+    left: 26%;
+    top: 18%;
+    font-size: 18px;
+}
+
+.multiplierBtn{
+    position: absolute;
+    left: 62%;
+    top: 15%;
+    font-size: 18px;
+}
+
+.multiplierBtn:hover{
+    font-size: 20px;
+    background-color: purple;
+    transition: .5s;
+}
+
+.multiplierCount{
+    position: absolute;
+    left: 60%;
+    top: 18%;
+    font-size: 18px;
+}
+
+.inspirationP{
     display: none;
+}
+
+.inspirationPShow{
+    display: block;
 }
 
 .devInfoP{
     display: none;
 }
 
+.devInfoPShow{
+    display: block;
+}
+
 .companyInfoP{
     display: none;
-} */
+}
+
+.companyInfoPShow{
+    display: block;
+}
